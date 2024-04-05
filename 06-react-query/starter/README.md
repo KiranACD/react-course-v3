@@ -5,6 +5,7 @@
 Open server directory.
 
 - run "npm install" and "npm start"
+- To store the list in a file on the local server, run the backend using npm run local-server.
 
 #### Node Course
 

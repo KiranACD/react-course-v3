@@ -2773,7 +2773,7 @@ export default ReducerBasics;
 import Starter from './tutorial/11-performance/starter/01-lower-state';
 ```
 
-When Component Re-Renders :
+When does a component re-render :
 
 - When the component's state or props change, React will re-render the component to reflect these changes.
 

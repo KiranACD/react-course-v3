@@ -354,11 +354,11 @@ ul {
   text-align: center;
 }
 .slick-slide img {
-  display: inline-block;
+  display: inline-block;/* overriding the library css that has been assigned BLOCK.*/
 }
 
 .slick-prev::before {
-  color: var(--primary-500) !important;
+  color: var(--primary-500) !important;/* using important here to override the library css */
 }
 .slick-next::before {
   color: var(--primary-500) !important;

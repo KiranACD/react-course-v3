@@ -16,9 +16,8 @@ const SlowComponent = () => {
         display: 'grid',
         gridTemplateColumns: '1fr 1fr 1fr',
         marginTop: '2rem',
-      }}
-    >
-      {items}
+      }}>
+        {items}
     </div>
   );
 };

@@ -273,7 +273,7 @@ nav {
   justify-content: center;
 }
 .nav-center {
-  width: var(--fluid-width);
+  width: var(--fluid-width);/* fluid width is 90vw */
   max-width: var(--max-width);
   display: flex;
   justify-content: space-between;
@@ -344,7 +344,7 @@ Sidebar
 */
 
 .sidebar {
-  position: fixed;
+  position: fixed; /* Tahking it out of the normal flow */
   top: 0;
   left: 0;
   width: 100%;
@@ -354,6 +354,8 @@ Sidebar
   opacity: 0;
   visibility: hidden;
 }
+
+/* Toggle class */
 .show-sidebar {
   opacity: 1;
   visibility: visible;
